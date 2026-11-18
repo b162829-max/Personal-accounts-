@@ -1,6 +1,17 @@
-plugins { id 'com.android.application' }
+
+plugins {
+    id 'com.android.application' version '8.7.3'
+}
+
 android {
     namespace 'com.driveraccounts.app'
     compileSdk 35
-    defaultConfig { applicationId 'com.driveraccounts.app'; minSdk 23; targetSdk 35; versionCode 89; versionName '8.9' }
+
+    defaultConfig {
+        applicationId 'com.driveraccounts.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 89
+        versionName '8.9'
+    }
 }
